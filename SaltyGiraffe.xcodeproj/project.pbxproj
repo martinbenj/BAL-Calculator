@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B589219F17616FD300878203 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B589219E17616FD300878203 /* UIKit.framework */; };
+		B58921A117616FD300878203 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58921A017616FD300878203 /* Foundation.framework */; };
+		B58921A317616FD300878203 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58921A217616FD300878203 /* CoreGraphics.framework */; };
+		B58921A917616FD300878203 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B58921A717616FD300878203 /* InfoPlist.strings */; };
+		B58921AB17616FD300878203 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B58921AA17616FD300878203 /* main.m */; };
+		B58921AF17616FD300878203 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B58921AE17616FD300878203 /* AppDelegate.m */; };
+		B58921B117616FD300878203 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B58921B017616FD300878203 /* Default.png */; };
+		B58921B317616FD300878203 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B58921B217616FD300878203 /* Default@2x.png */; };
+		B58921B517616FD300878203 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B58921B417616FD300878203 /* Default-568h@2x.png */; };
+		B58921B817616FD300878203 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58921B617616FD300878203 /* MainStoryboard.storyboard */; };
+		B58921BB17616FD300878203 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58921BA17616FD300878203 /* ViewController.m */; };
+		B58921C31761753300878203 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B58921C21761753300878203 /* Person.m */; };
+		B5EBD3CE1767EDD200F88BC3 /* doneup.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EBD3CD1767EDD200F88BC3 /* doneup.png */; };
+		B5EBD3D01767EF0E00F88BC3 /* donedown.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EBD3CF1767EF0E00F88BC3 /* donedown.png */; };
+		B5F0F0D1176A60A2004B783F /* BALDirectoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F0F0D0176A60A2004B783F /* BALDirectoryViewController.m */; };
+		B5F0F0D3176A6627004B783F /* random.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F0F0D2176A6627004B783F /* random.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B589219B17616FD300878203 /* SaltyGiraffe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaltyGiraffe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B589219E17616FD300878203 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B58921A017616FD300878203 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B58921A217616FD300878203 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B58921A617616FD300878203 /* SaltyGiraffe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SaltyGiraffe-Info.plist"; sourceTree = "<group>"; };
+		B58921A817616FD300878203 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B58921AA17616FD300878203 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B58921AC17616FD300878203 /* SaltyGiraffe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SaltyGiraffe-Prefix.pch"; sourceTree = "<group>"; };
+		B58921AD17616FD300878203 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B58921AE17616FD300878203 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B58921B017616FD300878203 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B58921B217616FD300878203 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B58921B417616FD300878203 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B58921B717616FD300878203 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B58921B917616FD300878203 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B58921BA17616FD300878203 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B58921C11761753300878203 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		B58921C21761753300878203 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		B5EBD3CD1767EDD200F88BC3 /* doneup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = doneup.png; path = ../../../Desktop/doneup.png; sourceTree = "<group>"; };
+		B5EBD3CF1767EF0E00F88BC3 /* donedown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = donedown.png; path = ../../../Desktop/donedown.png; sourceTree = "<group>"; };
+		B5F0F0CF176A60A2004B783F /* BALDirectoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BALDirectoryViewController.h; sourceTree = "<group>"; };
+		B5F0F0D0176A60A2004B783F /* BALDirectoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BALDirectoryViewController.m; sourceTree = "<group>"; };
+		B5F0F0D2176A6627004B783F /* random.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = random.png; path = "../../../Music/iTunes/iTunes Media/Downloads/random.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B589219817616FD300878203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B589219F17616FD300878203 /* UIKit.framework in Frameworks */,
+				B58921A117616FD300878203 /* Foundation.framework in Frameworks */,
+				B58921A317616FD300878203 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B589219217616FD200878203 = {
+			isa = PBXGroup;
+			children = (
+				B58921A417616FD300878203 /* SaltyGiraffe */,
+				B589219D17616FD300878203 /* Frameworks */,
+				B589219C17616FD300878203 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B589219C17616FD300878203 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B589219B17616FD300878203 /* SaltyGiraffe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B589219D17616FD300878203 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B589219E17616FD300878203 /* UIKit.framework */,
+				B58921A017616FD300878203 /* Foundation.framework */,
+				B58921A217616FD300878203 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B58921A417616FD300878203 /* SaltyGiraffe */ = {
+			isa = PBXGroup;
+			children = (
+				B58921AD17616FD300878203 /* AppDelegate.h */,
+				B58921AE17616FD300878203 /* AppDelegate.m */,
+				B58921B617616FD300878203 /* MainStoryboard.storyboard */,
+				B58921B917616FD300878203 /* ViewController.h */,
+				B58921BA17616FD300878203 /* ViewController.m */,
+				B58921C11761753300878203 /* Person.h */,
+				B58921C21761753300878203 /* Person.m */,
+				B5F0F0CF176A60A2004B783F /* BALDirectoryViewController.h */,
+				B5F0F0D0176A60A2004B783F /* BALDirectoryViewController.m */,
+				B58921A517616FD300878203 /* Supporting Files */,
+			);
+			path = SaltyGiraffe;
+			sourceTree = "<group>";
+		};
+		B58921A517616FD300878203 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5F0F0D2176A6627004B783F /* random.png */,
+				B5EBD3CF1767EF0E00F88BC3 /* donedown.png */,
+				B5EBD3CD1767EDD200F88BC3 /* doneup.png */,
+				B58921A617616FD300878203 /* SaltyGiraffe-Info.plist */,
+				B58921A717616FD300878203 /* InfoPlist.strings */,
+				B58921AA17616FD300878203 /* main.m */,
+				B58921AC17616FD300878203 /* SaltyGiraffe-Prefix.pch */,
+				B58921B017616FD300878203 /* Default.png */,
+				B58921B217616FD300878203 /* Default@2x.png */,
+				B58921B417616FD300878203 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B589219A17616FD300878203 /* SaltyGiraffe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B58921BE17616FD300878203 /* Build configuration list for PBXNativeTarget "SaltyGiraffe" */;
+			buildPhases = (
+				B589219717616FD300878203 /* Sources */,
+				B589219817616FD300878203 /* Frameworks */,
+				B589219917616FD300878203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaltyGiraffe;
+			productName = SaltyGiraffe;
+			productReference = B589219B17616FD300878203 /* SaltyGiraffe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B589219317616FD300878203 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Benjamin Martin";
+			};
+			buildConfigurationList = B589219617616FD300878203 /* Build configuration list for PBXProject "SaltyGiraffe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B589219217616FD200878203;
+			productRefGroup = B589219C17616FD300878203 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B589219A17616FD300878203 /* SaltyGiraffe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B589219917616FD300878203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58921A917616FD300878203 /* InfoPlist.strings in Resources */,
+				B58921B117616FD300878203 /* Default.png in Resources */,
+				B58921B317616FD300878203 /* Default@2x.png in Resources */,
+				B58921B517616FD300878203 /* Default-568h@2x.png in Resources */,
+				B58921B817616FD300878203 /* MainStoryboard.storyboard in Resources */,
+				B5EBD3CE1767EDD200F88BC3 /* doneup.png in Resources */,
+				B5EBD3D01767EF0E00F88BC3 /* donedown.png in Resources */,
+				B5F0F0D3176A6627004B783F /* random.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B589219717616FD300878203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58921AB17616FD300878203 /* main.m in Sources */,
+				B58921AF17616FD300878203 /* AppDelegate.m in Sources */,
+				B58921BB17616FD300878203 /* ViewController.m in Sources */,
+				B58921C31761753300878203 /* Person.m in Sources */,
+				B5F0F0D1176A60A2004B783F /* BALDirectoryViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B58921A717616FD300878203 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B58921A817616FD300878203 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B58921B617616FD300878203 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B58921B717616FD300878203 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B58921BC17616FD300878203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B58921BD17616FD300878203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B58921BF17616FD300878203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaltyGiraffe/SaltyGiraffe-Prefix.pch";
+				INFOPLIST_FILE = "SaltyGiraffe/SaltyGiraffe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B58921C017616FD300878203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaltyGiraffe/SaltyGiraffe-Prefix.pch";
+				INFOPLIST_FILE = "SaltyGiraffe/SaltyGiraffe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B589219617616FD300878203 /* Build configuration list for PBXProject "SaltyGiraffe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B58921BC17616FD300878203 /* Debug */,
+				B58921BD17616FD300878203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B58921BE17616FD300878203 /* Build configuration list for PBXNativeTarget "SaltyGiraffe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B58921BF17616FD300878203 /* Debug */,
+				B58921C017616FD300878203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B589219317616FD300878203 /* Project object */;
+}
