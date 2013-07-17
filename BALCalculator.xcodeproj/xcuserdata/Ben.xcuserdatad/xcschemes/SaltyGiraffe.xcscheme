@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B589219A17616FD300878203"
-               BuildableName = "SaltyGiraffe.app"
-               BlueprintName = "SaltyGiraffe"
-               ReferencedContainer = "container:SaltyGiraffe.xcodeproj">
+               BuildableName = "BALCalculator.app"
+               BlueprintName = "BALCalculator"
+               ReferencedContainer = "container:BALCalculator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B589219A17616FD300878203"
-            BuildableName = "SaltyGiraffe.app"
-            BlueprintName = "SaltyGiraffe"
-            ReferencedContainer = "container:SaltyGiraffe.xcodeproj">
+            BuildableName = "BALCalculator.app"
+            BlueprintName = "BALCalculator"
+            ReferencedContainer = "container:BALCalculator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B589219A17616FD300878203"
-            BuildableName = "SaltyGiraffe.app"
-            BlueprintName = "SaltyGiraffe"
-            ReferencedContainer = "container:SaltyGiraffe.xcodeproj">
+            BuildableName = "BALCalculator.app"
+            BlueprintName = "BALCalculator"
+            ReferencedContainer = "container:BALCalculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B589219A17616FD300878203"
-            BuildableName = "SaltyGiraffe.app"
-            BlueprintName = "SaltyGiraffe"
-            ReferencedContainer = "container:SaltyGiraffe.xcodeproj">
+            BuildableName = "BALCalculator.app"
+            BlueprintName = "BALCalculator"
+            ReferencedContainer = "container:BALCalculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

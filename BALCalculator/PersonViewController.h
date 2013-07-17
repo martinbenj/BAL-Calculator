@@ -7,8 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface Person : UIViewController <UITextFieldDelegate, UIPickerViewDelegate, UIPickerViewDataSource, UIPickerViewAccessibilityDelegate>
+
+@interface Person : UIViewController <UITextFieldDelegate, UIPickerViewDelegate, UIPickerViewDataSource, UIPickerViewAccessibilityDelegate, CLLocationManagerDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *weight;
 @property (weak, nonatomic) IBOutlet UITextField *numberOfDrinks;
@@ -19,10 +21,17 @@
 @property (strong, nonatomic) UITextField *activeTextField;
 @property (strong, nonatomic) NSString *currentFieldData;
 
+@property (strong, nonatomic) CLLocationManager *locationManager;
+@property (strong, nonatomic) CLLocation *currentLocation;
+@property (strong, nonatomic) NSDictionary *BALByCountry;
+@property (strong, nonatomic) NSString *currentCountry;
+
+@property (nonatomic) float BALforCountry;
 
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 
 @property (weak, nonatomic) IBOutlet UITextView *BALDisplay;
+
 
 
 

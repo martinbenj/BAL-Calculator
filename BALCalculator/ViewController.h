@@ -10,5 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *BALApp;
+
+@property (weak, nonatomic) IBOutlet UIButton *directoryApp;
 
 @end
